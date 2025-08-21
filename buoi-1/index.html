@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+
+        th,
+        td {
+            border: 1px solid red;
+            padding: 8px;
+            text-align: center;
+        }
+
+        /* th {
+            border: 1px solid red;
+        }
+
+        td {
+            border: 1px solid black;
+        } */
+        tr {}
+
+        tbody {}
+    </style>
+</head>
+
+<body>
+    <h1>Nguyễn Xuân Mạnh</h1>
+    <h2>Nguyễn Văn A</h2>
+    <h3>Nguyễn Văn B</h3>
+    <h4>Nguyễn Xuân C</h4>
+    <h5>Nguyễn Văn D</h5>
+    <h6>Nguyễn Văn E</h6>
+
+    <p>Ngày hôm này là ngày 21/08/2025. Tôi đang học lập trình nhé bà con</p>
+    <span>Sông núi nước nam. Vua Nam ở</span>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellendus reprehenderit saepe commodi ad
+        dolorem placeat maxime rerum quis veritatis. Mollitia dolores dolorem et eos quaerat nobis sapiente distinctio
+        sunt!</p>
+    <img src="https://sinhvien.eaut.edu.vndsadsad/img/logo-unisoft.png" alt="Ảnh trang sinh viên" />
+
+    <h1 id="11">Những việc cần làm</h1>
+    <!-- <ul>
+        <li>Ăn</li>
+        <li>Ngủ</li>
+        <li>Code</li>
+        <li>Đi chơi với bạn gái</li>
+        <li>Đi xem diễu binh</li>
+    </ul> -->
+
+    <ol start="1" reversed type="I">
+        <li>Ăn</li>
+        <li>Ngủ</li>
+        <li>Code</li>
+        <li>Đi chơi với bạn gái</li>
+        <li>Đi xem diễu binh</li>
+    </ol>
+    <br>
+    Username: <input type="text"><br>
+    Password: <input type="password"><br>
+    Nam <input name="gender" value="Nam" type="radio">
+    Nữ <input name="gender" value="Nữ" type="radio">
+    Khác <input name="gender" value="Khác" type="radio">
+    <br>
+    <p>Sở thích:</p>
+
+    Ăn kem <input name="so-thich" type="checkbox" value="Ăn kem">
+    Ăn phở <input name="so-thich" type="checkbox" value="Ăn phở ">
+    Ăn sôi <input name="so-thich" type="checkbox" value="Ăn sôi">
+    <br>
+    <p>Số tiền bạn hiện có là</p>
+    0<input type="range" step="10" value="10" min="0" max="100">100
+    <br>
+    <input name="date" type="date">
+    <br>
+    Số tiền <input type="number"> <br> Số tiền <input type="number">
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="1">STT</th>
+                <th>Họ và tên</th>
+                <th>Ngày Sinh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="1" colspan="1">1</td>
+                <td>Nguyễn Xuân Mạnh</td>
+                <td>29/09/2003</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nguyễn Xuân Mạnh</td>
+                <td>29/09/2003</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <h1>Chọn 1 kết quả</h1>
+    <select name="" id="" multiple>
+        <option value="" hidden>----</option>
+        <option value="">Hà Nội</option>
+        <option value="">Hải Phòng</option>
+        <option value="">Phú Thọ</option>
+    </select>
+    <h1>Chọn nhiều kết quả</h1>
+    <select style="height: 35px;" name="" id="" multiple>
+        <optgroup label="Hà Nội">
+            <option value="">Khánh Thượng</option>
+        </optgroup>
+        <optgroup label="Phú Thọ">
+            <option value="">Hoàng Xá</option>
+        </optgroup>
+        <optgroup label="Hà Nội">
+            <option value="">Khánh Thượng</option>
+        </optgroup>
+        <optgroup label="Phú Thọ">
+            <option value="">Hoàng Xá</option>
+        </optgroup>
+    </select>
+    <h1>Form</h1>
+    <form action="https://google.com.vn" method="post" target="_self">
+        <!-- <label for="username">Username</label>
+        <input id="username" name="username" type="text">
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="text"> -->
+        <label>Username
+            <input name="username" type="text">
+        </label>
+
+
+        <label>Password
+            <input name="password" type="text">
+        </label>
+
+        <br>
+        <label for="">Chọn vùng</label>
+        <select name="provider">
+            <optgroup label="Hà Nội">
+                <option value="Khánh Thượng">Khánh Thượng</option>
+            </optgroup>
+            <optgroup label="Phú Thọ">
+                <option value="Hoàng Xá">Hoàng Xá</option>
+            </optgroup>
+            <optgroup label="Hà Nội">
+                <option value="Khánh Thượng">Khánh Thượng</option>
+            </optgroup>
+            <optgroup label="Phú Thọ">
+                <option value="Hoàng Xá">Hoàng Xá</option>
+            </optgroup>
+        </select>
+        <button>Đăng nhập</button>
+        <button type="reset">Đạt lại</button>
+
+        <h1>Thẻ A</h1>
+        <a href="https://google.com.vn" target="_blank">Go to Google</a><br>
+        <a href="#11">Lên Những việc ần làm</a>
+    </form>
+</body>
+
+</html>
