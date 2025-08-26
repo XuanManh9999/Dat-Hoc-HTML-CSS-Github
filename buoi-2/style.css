@@ -1,0 +1,81 @@
+/* footer {
+    background-color: aqua;
+    color: #fff;
+}
+
+* {
+    color: brown;
+}
+
+.h1 {
+    color: red;
+}
+
+#h1 {
+    color: gold;
+}
+
+div #h1 {
+    color: cadetblue;
+}
+ */
+
+
+/* div>#h1 {
+    color: red;
+} */
+
+
+/* div>.h1.manh {
+    color: red;
+} */
+
+/* #h1~p {
+    color: red;
+    font-size: 20px;
+} */
+/* 
+#h1+p {
+    color: red;
+} */
+
+
+/* p[title^="M"] {
+    color: red;
+} */
+/* regex */
+/* [* tức là chứa] */
+/* p[title*="a"] {
+    color: red;
+} */
+
+
+/* p[title$="h"] {
+    color: red;
+} */
+
+/* p[title="Mạnh"] {
+    color: red;
+} */
+/* ^ bắt đầu bằng ^ */
+/* #img[src^="https"] {
+    color: red;
+} */
+
+
+
+
+
+
+/* input:checked+label {
+    color: red;
+    text-decoration: line-through;
+    display: none;
+} */
+h1 {
+    display: none;
+}
+
+button:active+h1 {
+    display: block;
+}

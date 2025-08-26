@@ -1,4 +1,4 @@
-# Giới thiệu HTML là gì, các thẻ thông dụng (h1..h6, p, span, dev, form, table, select option, form, label, a, button các thuộc tính phổ biến
+# Giới thiệu HTML là gì, các thẻ thông dụng h1..h6, p, span, div, table, select option, form, label, a, button các thuộc tính phổ biến
 
 HTML là một ngôn ngữ đánh dấu siêu văn bản. Nó không phải ngôn ngữ lập trình, HTML là ngôn ngữ kịch bản.
 Nhiệm vụ của nó trong website là đánh dấu các chữ, hình ảnh, bố cục, video....
