@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* .block--border-black {
+    border: 1px solid #ccc;
+}
+
+.block--boder-green {
+    border: 1px solid green;
+} */
+
+/* # Thuộc tính về màu sắc */
+
+/* h1 {
+    color: white;
+    background-color: green;
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWe4q5SdUU-7kc6YfuQL6T0klVsbyVLrhmwTagdWGnon_9wZrJXjSLeZQ7dSTbkrkNGE0KglEH4SJ3uXCYkceP47ElTizkwY5Md7CdcbPjYw');
+    background-size: cover;
+    opacity: 0.5;
+}
+
+span {
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWe4q5SdUU-7kc6YfuQL6T0klVsbyVLrhmwTagdWGnon_9wZrJXjSLeZQ7dSTbkrkNGE0KglEH4SJ3uXCYkceP47ElTizkwY5Md7CdcbPjYw');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+} */
+
+
+/* # Thuộc tính về kích thước và khoảng cách */
+
+/* .container { */
+/* color: white; */
+/* width: 100px;
+    height: 100px; */
+/* width: 200px; */
+/* min-width: 100px;
+    max-width: 200px;
+    background-color: black; */
+/* padding: 10px; 4 hướng */
+/* padding: 10px 11px 12px 13px; */
+/* padding: 10px 20px; Tren duoi, trai phai */
+/* padding: 10px 30px 20px; tren, phai, trai, duoi */
+/* padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: red;
+    border: 5px solid #ccc; */
+/* } */
+
+/* .container:nth-child(2) { */
+/* margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px; */
+
+/* margin: 10px; */
+/* margin: 10px 20px; */
+/* margin: 10px 20px 30px; */
+/* margin: 10px 20px 30px 40px; */
+
+/* } */
+
+
+/* # Thuộc tính về văn bản text */
+
+/* p { */
+/* font-size: 9px;
+    font-weight: 700; */
+/* text-align: justify; */
+/* text-decoration: underline; */
+/* text-decoration: line-through; */
+/* line-height: 100vh; */
+/* line-height: 100px; */
+/* height: 100px; */
+/* line-height: 1.4; */
+/* letter-spacing: 10px; */
+/* text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    font-style: italic; */
+/* } */
+
+/* span { */
+/* display: block; */
+/* text-align: center; */
+/* } */
+
+html {
+    font-size: 12px;
+}
+
+
+
+body {
+    font-size: 30px;
+}
+
+div {
+    /* font-size: 12px; */
+    /* font-size: 10px; */
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    /* font-size: 200%; */
+    font-size: 4rem;
+}
