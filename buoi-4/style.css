@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* h1:hover {
+    color: red;
+    font-size: 40px;
+} */
+
+/* h1:active {
+    color: red;
+}
+
+button:active {
+    color: aqua;
+} */
+
+/* p:focus {
+    color: red;
+}
+
+
+input:focus {
+    color: red;
+}
+
+button:focus {
+    color: aqua;
+} */
+
+
+
+/* p:checked {
+    color: red;
+} */
+
+/* .radio:checked+p {
+    display: none;
+} */
+
+/* ="disabled" */
+/* .radio:checked {
+    color: red;
+    background-color: red;
+} */
+
+/* input:disabled {
+    background-color: red;
+    height: 30px;
+    width: 120px;
+} */
+
+
+/* ul li:not(.item) {
+    color: red;
+} */
+
+/* ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: gold;
+} */
+
+
+/* ul li:last-of-type {
+    color: red;
+}
+
+ul li:first-of-type {
+    color: gold;
+} */
+
+
+/* ul li:nth-of-type(3),
+ul li:nth-of-type(1) {
+    color: red;
+} */
+
+/* ul li:nth-of-type(2n) {
+    color: red;
+} */
+
+/* Phần tử giả */
+/* Có content là bắt buộc */
+/* h1::before {
+    content: "";
+    padding-left: 10px;
+    background-color: red;
+    border-left: 4px solid #ccc;
+}
+
+h1::after {
+    content: "";
+    padding-left: 10px;
+    background-color: yellow;
+    border-left: 4px solid #ccc;
+}
+
+p::first-line {
+    color: red;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+p::selection {
+    color: orange;
+    background-color: red;
+}
+
+input::placeholder {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+} */
+
+/* Kế thừa trong CSS */
+/* div {
+    color: aqua;
+} */
+
+/* h1 { */
+/* color: green; */
+/* color: initial; */
+/* color: inherit; */
+
+/* color: brown; */
+/* } */
+
+/* :root {
+    --width: 100px;
+    --height: 200px;
+}
+
+html {
+    font-size: 40px;
+}
+
+
+h1 {
+    font-size: inherit;
+    width: var(--width);
+    height: var(--height);
+}
+
+h2 {
+    font-size: inherit;
+    width: var(--width);
+    height: var(--height);
+    } */
+
+/* Flex */
+.flex {
+    height: 100vh;
+}
+
+.flex .flex__item {
+    /* width: 100px; */
+    flex-basis: 100px;
+    height: 100px;
+
+
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.flex .flex__item:nth-of-type(2n) {
+    background-color: red;
+}
+
+.flex .flex__item:nth-of-type(2n + 1) {
+    background-color: black;
+}
+
+
+.flex {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: nowrap;
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+    /* justify-content: space-between; */
+    /* justify-content: start;
+    align-items: start; */
+    /* column-gap: 10px;
+    row-gap: 20px; */
+    /* gap: 10px 20px; */
+}
+
+.flex .flex__item {
+    flex: 1 1 100px;
+}
+
+.flex .flex__item:nth-of-type(1) {
+    order: 3;
+}
+
+.flex .flex__item:nth-of-type(2) {
+    flex-grow: 1;
+    order: 1;
+}
+
+
+.flex .flex__item:nth-of-type(3) {
+    order: 2;
+}
