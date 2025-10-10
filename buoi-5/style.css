@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    /* position: relative; */
+    width: 200px;
+    /* height: 200px; */
+    background-color: red;
+    /* overflow: auto; */
+    /* margin-top: 10px; */
+    /* top: 200px; */
+    /* left: 10px;
+    bottom: 50px; */
+}
+
+.sub {
+    width: 50px;
+    height: 50px;
+    /* margin-top: 210px; */
+    background-color: green;
+    /* position: absolute; */
+    /* top: 0; */
+    right: 0;
+    /* bottom: 0; */
+    /* left: 0; */
+    /* top: 50%;
+    left: 50%; */
+}
+
+header {
+    height: 80px;
+    background-color: black;
+    position: sticky;
+    /* top: 30px; */
+    width: 100%;
+    /* top: 0;  điểm dừng để cố định*/
+    top: 0;
+    margin-top: 30px;
+    /* z-index: 1; */
+}
+
+/* button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+} */
+
+h1 {
+    /* position: relative;
+    top: 30px; */
+}
+
+/* Animation */
+button {
+    background-color: red;
+    width: 100px;
+    height: 50px;
+}
+
+span {
+    display: none;
+}
+
+button:hover {
+    transform: translateX(15px);
+    background-color: gold;
+    width: 200px;
+    /* transform: translateY(-10px); */
+    /* transform: translate(10px, 10px); */
+    /* transform: scaleX(0.5); */
+    /* transform: scaleY(1.2) */
+    /* transform: scale(0.5, 1.2); */
+    /* transform: rotate(360deg); */
+    /* transform: rotate(12deg); */
+    /* transform: skew(8deg); */
+    transition: all 2s ease-out 1s;
+}
+
+button:active+main {
+    /* transform: rotate(360deg); */
+    /* transform: translateY(-20px); */
+    /* transition: all ease 1s; */
+}
+
+
+button:active>span,
+button:active+main {
+    /* display: inline-block; */
+    /* transform: rotate(360deg); */
+    /* transform: translateY(-20px); */
+    /* transition: all 1s ease-in; */
+}
+
+button:active+main {
+    transform: translateX(200px);
+    transition: transform 2s ease-in;
+}
+
+
+main {
+    top: 30px;
+    position: relative;
+    width: 200px;
+    height: 160px;
+    background-color: gold;
+}
+
+main:hover {
+    /* transform: rotate(360deg); */
+    /* transform: translateY(-20px);
+    transition: all ease 1s; */
+}
