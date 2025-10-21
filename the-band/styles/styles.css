@@ -1,0 +1,379 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: calc(100% - 700px);
+    margin: 0 auto;
+}
+
+
+.header {
+    background-color: black;
+    height: 46.5px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.header__nav {}
+
+.header__nav__list {
+    display: flex;
+}
+
+.header__nav__list>.header__nav__list__item {
+    padding: 14px 24px;
+    color: #fff;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+.header__nav__list>.header__nav__list__item:hover {
+    color: black;
+    background: #ccc;
+    cursor: pointer;
+}
+
+/* Search */
+
+.header__search {
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header__search:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.header__search>i {
+    color: #fff;
+}
+
+.header__nav__list__item__sub_menu {
+    position: relative;
+}
+
+.header__nav__list__item__sub_list {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    top: 46.5px;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header__nav__list__item__sub_list>.header__nav__list__item__sub_item {
+    list-style-type: none;
+    padding: 8px 16px;
+    color: #000;
+}
+
+.header__nav__list__item__sub_list>.header__nav__list__item__sub_item:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+.header__nav__list__item__sub_menu:hover .header__nav__list__item__sub_list {
+    display: block;
+}
+
+.header__nav__list__item__sub_menu>i {
+    font-size: 12px;
+    position: absolute;
+}
+
+/* slider */
+.wrapper_slider {
+    position: relative;
+}
+
+
+.wrapper_slder__slider {
+    width: 100%;
+}
+
+.wrapper_slder__slider>.wrapper_slder__slider__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrapper_slider__content {
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.wrapper_slider__content .wrapper_slider__content__title {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.wrapper_slider__content .wrapper_slider__content__desc {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+/* The BAND */
+
+.theband {
+    padding: 64px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.desc {
+    text-align: center;
+    margin: 15px 0;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.theband__info {
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.theband__author {
+    display: flex;
+    justify-content: space-around;
+}
+
+.theband__author__item__name {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+    display: block;
+    text-align: center;
+}
+
+.theband__author__item .theband__author__item__image>img {
+    width: 155px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* tour_dates  */
+.tour_dates {
+    padding: 64px 0;
+    background-color: black;
+}
+
+.tour_dates .desc,
+.tour_dates .title {
+    color: #fff;
+}
+
+.tour_dates__checking {
+    margin-top: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.tour_dates__checking .tour_dates__checking__item {
+    padding: 8px 16px;
+    list-style-type: none;
+    color: #757575;
+    font-size: 15px;
+    line-height: 1.5;
+    border-bottom: 1px solid #ddd;
+}
+
+.tour_dates__checking__sold_out {
+    color: #fff;
+    background-color: #f44336;
+    padding: 2px 8px;
+    margin-left: 15px;
+}
+
+.tour_dates__checking__quantity_ticket {
+    float: right;
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+
+.tour_dates__container__city {
+    padding: 32px 0;
+    display: flex;
+    column-gap: 16px;
+}
+
+.tour_dates__container__city__item {
+    width: calc(100% / 3);
+    background-color: #fff;
+}
+
+.tour_dates__container__city__item__image>img {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+}
+
+.tour_dates__container__city__item__content {
+    padding: 0 16px;
+}
+
+.tour_dates__container__city__item__desc,
+.tour_dates__container__city__item__date,
+.tour_dates__container__city__item__title {
+    color: #000;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0;
+
+}
+
+.tour_dates__container__city__item__title {
+    font-weight: 700;
+}
+
+.tour_dates__container__city__item__date {
+    opacity: 0.6;
+    font-size: 16px;
+}
+
+.tour_dates__container__city__item__desc {
+    color: #333;
+    font-weight: 500;
+}
+
+.tour_dates__container__city__item__btn {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+
+.tour_dates__container__city__item__btn:hover {
+    color: black;
+    background-color: #ccc;
+}
+
+.contact {
+    padding-top: 64px;
+}
+
+.contact__content {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__content__left {
+    flex: 1;
+}
+
+.contact__content__right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__content__left>li {
+    list-style-type: none;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact__content__form {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    justify-content: space-between;
+}
+
+.contact__content__form>input {
+    width: calc(50% - 8px);
+}
+
+.contact__content__form>input:last-child {
+    margin-top: 10px;
+    flex: 1;
+}
+
+.contact__content__form>input {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.contact__content__btn {
+    margin-top: 10px;
+    align-self: flex-end;
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact__content__btn:hover {
+    color: black;
+    background-color: #ccc;
+}
+
+.map {
+    padding-top: 64px;
+}
+
+.map__image>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* footer */
+
+.footer {
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 64px 16px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer__social>li {
+    list-style-type: none;
+    font-size: 20px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.footer__created {
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+}
